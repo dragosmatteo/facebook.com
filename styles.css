@@ -27,6 +27,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* !Container! */
 .container {
     height: 100vh;
 }
@@ -194,3 +195,6 @@ span {
 .container .sections .section_2 .text1 a:hover {
     text-decoration: underline;
 }
+
+/* !Footer! */
+
