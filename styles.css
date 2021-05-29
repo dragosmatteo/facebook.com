@@ -205,6 +205,8 @@ span {
 footer  {
     height: 155px;
     background-color: var(--color-bg-5);
+    display: flex;
+    flex-direction: column;
 }
 
 footer .content_f {
@@ -230,14 +232,15 @@ footer .content_f .top .limbi {
 }
 
 footer .content_f .top .rom {
-    padding-top: 9px;
+    padding-top: 14px;
     padding-right: 3px;
     font-size: 12.5px;
+    color: grey;
 }
 
 footer .content_f .top a {
     text-decoration: none;
-    color:#7ba7ff;
+    color:#6687c8;
 }
 
 footer .content_f .top a:hover {
@@ -245,6 +248,13 @@ footer .content_f .top a:hover {
 }
 
 footer .content_f .top .plus {
-    padding: 0px 7px;
-    font-size: large;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+.hr1 {
+    margin-top: 10px;
+    opacity: 0.3;
+    background-color: grey;
+    border-width:0.01em;
 }
